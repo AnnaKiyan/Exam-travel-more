@@ -34,13 +34,19 @@ body {
   margin: 0 auto;
 }
 .container h1 {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 48px;
+  font-weight: 600;
   padding-top: 265px;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 .container h2 {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 22px;
   font-weight: 100;
   margin-bottom: 50px;
+  letter-spacing: 3px;
 }
 .container h1, .container h2 {
   text-align: center;
@@ -57,11 +63,21 @@ body {
   justify-content: center;
   width: 100%;
   margin-bottom: 115px;
+  letter-spacing: 4px;
 }
 
 .block_input {
   display: flex;
   justify-content: wrap;
+}
+
+input {
+  letter-spacing: 3px;
+  color: #999999;
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 100px;
 }
 
 .d2 input, .d2 button {
@@ -81,6 +97,9 @@ body {
 }
 
 .btn_search {
+  font-family: "Aleo", "sans-serif";
+  font-size: 10px;
+  font-weight: 400;
   width: 20%;
   border: none;
   padding: 0;
@@ -99,6 +118,9 @@ body {
 }
 
 .scroll_down {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
   color: #fff;
   font-size: 18px;
   text-align: center;
@@ -127,9 +149,12 @@ body {
   padding-top: 20px;
 }
 
-.main_menu ul {
-  font-family: "Josefin Sans";
+.main_menu {
+  font-family: "Aleo", "sans-serif";
+  font-size: 14px;
   font-weight: 400;
+}
+.main_menu ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -162,16 +187,16 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding-top: 90px;
-  margin-bottom: 220px;
+  margin-bottom: 120px;
 }
 .block_2 .collum-1 {
   width: 45%;
   height: 500px;
 }
 .block_2 h2 {
-  font-family: "Josefin Sans";
-  font-size: 40px;
-  font-weight: 600;
+  font-family: "Aleo", "sans-serif";
+  font-size: 36px;
+  font-weight: 400;
   text-align: left;
   padding-top: 90px;
 }
@@ -179,17 +204,21 @@ body {
   color: #fff;
   font-size: 16px;
   line-height: 30px;
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 300;
 }
 .block_2 p {
-  margin-bottom: 55px;
+  margin-bottom: 15px;
 }
 .block_2 .btn-block-2 {
   border: none;
   height: 60px;
   width: 225px;
   padding: 0 25px;
-  font-family: "Josefin Sans";
-  font-weight: 600;
+  font-family: "Aleo", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
   font-size: 16px;
   background-color: #5474fd;
   color: #fff;
@@ -204,7 +233,7 @@ body {
   height: 500px;
 }
 .block_2 .collum-2 .img img {
-  width: 80%;
+  width: 70%;
 }
 .block_2 .collum-2 .pic-1 {
   padding-bottom: 15px;
@@ -214,8 +243,12 @@ body {
 }
 .block_2 .icon {
   background-color: #333333;
-  height: 340px;
-  padding-top: 100px;
+  height: 240px;
+}
+.block_2 .shape {
+  text-align: center;
+  margin-right: 25px;
+  padding-top: 10px;
 }
 .block_2 .icon-all {
   display: flex;
@@ -229,8 +262,9 @@ body {
 }
 .block_2 .title {
   color: #fff;
-  font-size: 36px;
-  font-family: "Josefin Sans";
+  font-family: "Aleo", "sans-serif";
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .block_3 {
@@ -246,15 +280,24 @@ body {
   padding: 40px 50px 45px 30px;
 }
 .collum-one .title {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 20px;
+  font-weight: 300;
   padding-top: 50px;
   color: #fff;
   padding-bottom: 30px;
 }
 .collum-one h2 {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 20px;
+  font-weight: 300;
   text-transform: uppercase;
   text-align: left;
 }
 .collum-one p {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 300;
   color: #fff;
   padding-bottom: 40px;
 }
@@ -263,9 +306,9 @@ body {
   height: 60px;
   width: 225px;
   padding: 0 25px;
-  font-family: "Josefin Sans";
-  font-weight: 600;
+  font-family: "Aleo", "sans-serif";
   font-size: 16px;
+  font-weight: 400;
   background-color: #5474fd;
   color: #fff;
   text-transform: uppercase;
@@ -292,15 +335,24 @@ body {
   margin-right: 0;
 }
 .collum-two .title {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 20px;
+  font-weight: 300;
   padding-top: 50px;
   color: #fff;
   padding-bottom: 30px;
 }
 .collum-two h2 {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 20px;
+  font-weight: 300;
   text-transform: uppercase;
   text-align: left;
 }
 .collum-two p {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 300;
   color: #fff;
   padding-bottom: 40px;
 }
@@ -309,9 +361,9 @@ body {
   height: 60px;
   width: 225px;
   padding: 0 25px;
-  font-family: "Josefin Sans";
-  font-weight: 600;
+  font-family: "Aleo", "sans-serif";
   font-size: 16px;
+  font-weight: 400;
   background-color: #5474fd;
   color: #fff;
   text-transform: uppercase;
@@ -327,6 +379,9 @@ body {
   padding-top: 115px;
 }
 .block_5 h2 {
+  font-family: "Aleo", "sans-serif";
+  font-size: 36px;
+  font-weight: 400;
   text-align: center;
 }
 .block_5 .collum-center {
@@ -349,15 +404,53 @@ body {
   color: #fff;
 }
 .block_5 .title-b5 {
+  font-family: "Josefin Sans", "sans-serif";
   font-size: 20px;
+  font-weight: 300;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .block_5 p {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  padding-left: 20px;
 }
 
-.footer {
+footer {
   background-color: #232323;
   min-height: 270px;
+  text-align: center;
+}
+footer .footer-logo {
+  padding-top: 100px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+footer h3 {
+  font-family: "Josefin Sans", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 28px;
+  color: #fff;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+footer li {
+  margin-left: 10px;
+}
+footer li:hover {
+  color: #5474fd;
+  transition: all 0.2s ease;
 }

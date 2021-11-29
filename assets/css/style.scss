@@ -33,13 +33,19 @@ body {
     max-width:1110px;
     margin: 0 auto;
     h1 {
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 48px;
+        font-weight: 600;
         padding-top: 265px; 
         text-transform: uppercase;
         margin-bottom: 15px;
     }
     h2{
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 22px;
         font-weight: 100;
         margin-bottom: 50px;
+        letter-spacing: 3px;
     }
     h1, h2 {
         text-align: center;
@@ -56,10 +62,20 @@ body {
     justify-content: center;
     width: 100%;
     margin-bottom: 115px;
+    letter-spacing: 4px;
 }
 .block_input {
     display: flex;
     justify-content: wrap;
+}
+input {
+letter-spacing: 3px;
+color: #999999;
+font-family: 'Josefin Sans', 'sans-serif';
+font-size: 14px;
+font-weight: 400;
+padding-left: 100px;
+
 }
 .d2 input, .d2 button {
    border: solid 3px #fff;
@@ -76,6 +92,9 @@ body {
     }
 }
 .btn_search {
+    font-family: 'Aleo', 'sans-serif';
+    font-size: 10px;
+    font-weight: 400;
     width: 20%;
     border: none;
     padding: 0;
@@ -93,6 +112,9 @@ body {
     }
 }
 .scroll_down{
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-size: 14px;
+    font-weight: 400;
     color: #fff;
     font-size: 18px;
     text-align: center;
@@ -118,9 +140,10 @@ body {
     padding-top: 20px;
 }
 .main_menu {
+    font-family: 'Aleo', 'sans-serif';
+    font-size: 14px;
+    font-weight: 400;
     ul {
-        font-family: 'Josefin Sans';
-        font-weight: 400;
         list-style: none;
         display: flex;
         justify-content: flex-end;
@@ -156,7 +179,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding-top: 90px;
-    margin-bottom: 220px;
+    margin-bottom: 120px;
    
     }
     .collum-1 {
@@ -164,9 +187,9 @@ body {
         height: 500px;
     }
     h2 {
-        font-family: 'Josefin Sans';
-        font-size: 40px;
-        font-weight: 600;
+        font-family: 'Aleo', 'sans-serif';
+        font-size: 36px;
+        font-weight: 400;
         text-align: left;
         padding-top: 90px;
     }
@@ -174,17 +197,21 @@ body {
         color: #fff;
         font-size: 16px;
         line-height: 30px;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 16px;
+        font-weight: 300;
     }
     p{
-        margin-bottom: 55px;
+        margin-bottom: 15px;
     }
     .btn-block-2 {
         border: none;
         height: 60px;
         width: 225px;
         padding: 0 25px;
-        font-family: 'Josefin Sans';
-        font-weight: 600;
+        font-family: 'Aleo', 'sans-serif';
+        font-size: 16px;
+        font-weight: 400;
         font-size: 16px;
         background-color: #5474fd;
         color: #fff;
@@ -199,10 +226,9 @@ body {
         width: 50%;
         height: 500px;
         .img img {
-            width: 80%;
+            width: 70%;
         }
         .pic-1 {
-            
             padding-bottom: 15px;
         }
         .pic-2 {
@@ -211,8 +237,12 @@ body {
     }
    .icon {
     background-color: #333333;
-    height: 340px;
-    padding-top: 100px;
+    height: 240px;
+   }
+   .shape {
+       text-align: center;
+       margin-right: 25px;
+       padding-top: 10px;
    }
    .icon-all {
     display: flex;
@@ -226,8 +256,9 @@ body {
    }
    .title {
        color: #fff;
-       font-size: 36px;
-       font-family: 'Josefin Sans';
+       font-family: 'Aleo', 'sans-serif';
+       font-size: 30px;
+       font-weight: 400;
    }
 }
 .block_3 {
@@ -241,16 +272,25 @@ body {
     height: 370px;
     padding: 40px 50px 45px 30px;
     .title {
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 20px;
+        font-weight: 300;
         padding-top: 50px;
         color: #fff;
         padding-bottom: 30px;
       
     }
     h2 {
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 20px;
+        font-weight: 300;
         text-transform: uppercase;
         text-align: left;
     }
     p {
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 16px;
+        font-weight: 300;
         color: #fff;
         padding-bottom: 40px;
         
@@ -260,9 +300,9 @@ body {
         height: 60px;
         width: 225px;
         padding: 0 25px;
-        font-family: 'Josefin Sans';
-        font-weight: 600;
+        font-family: 'Aleo', 'sans-serif';
         font-size: 16px;
+        font-weight: 400;
         background-color: #5474fd;
         color: #fff;
         text-transform: uppercase;
@@ -287,15 +327,24 @@ body {
     margin-left: auto;
     margin-right: 0;
     .title {
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 20px;
+        font-weight: 300;
         padding-top: 50px;
         color: #fff;
         padding-bottom: 30px;
         }
     h2 {
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 20px;
+        font-weight: 300;
         text-transform: uppercase;
         text-align: left;
     }
     p {
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 16px;
+        font-weight: 300;
         color: #fff;
         padding-bottom: 40px;
     }
@@ -304,16 +353,15 @@ body {
         height: 60px;
         width: 225px;
         padding: 0 25px;
-        font-family: 'Josefin Sans';
-        font-weight: 600;
+        font-family: 'Aleo', 'sans-serif';
         font-size: 16px;
+        font-weight: 400;
         background-color: #5474fd;
         color: #fff;
         text-transform: uppercase;
         &:hover {
             background-color: #1e295a;
             transition: all .5s ease;
-            
         }
     }
 }
@@ -322,6 +370,9 @@ body {
     min-height: 700px;
     padding-top: 115px;
     h2 {
+        font-family: 'Aleo', 'sans-serif';
+        font-size: 36px;
+        font-weight: 400;
         text-align: center;
     }
     .collum-center{
@@ -335,7 +386,6 @@ body {
     }
     .collum-left {
         display: flex;
-        
         float: left;
     }
     .collum-right {
@@ -345,19 +395,60 @@ body {
         color: #fff;
     }
     .title-b5 {
+        font-family: 'Josefin Sans', 'sans-serif';
         font-size: 20px;
+        font-weight: 300;
         margin-bottom: 10px;
+        text-transform: uppercase;
     }
     p {
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 16px;
+        font-weight: 300;
         font-size: 16px;
         line-height: 30px;
+        padding-left: 20px;
         
     }
 }
-.footer {
+footer {
     background-color: #232323;
     min-height: 270px;
-
+    text-align: center;
+    
+    
+    .footer-logo {
+        padding-top: 100px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    h3 {
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom: 28px;
+        color: #fff;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+    }
+   
+    li {
+        margin-left: 10px;
+        &:hover {
+        color: #5474fd;
+        transition: all 0.2s ease;
+        }
+    }
+    
 }
 
 
