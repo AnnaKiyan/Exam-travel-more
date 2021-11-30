@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    transition: all .5s ease;
 }
 
 html, body {
@@ -269,7 +268,7 @@ padding-left: 100px;
 .collum-one {
     background-color: rgba($color: #0000003d, $alpha: 0.6);
     width: 54%;
-    height: 370px;
+    height: 400px;
     padding: 40px 50px 45px 30px;
     .title {
         font-family: 'Josefin Sans', 'sans-serif';
@@ -322,7 +321,7 @@ padding-left: 100px;
     justify-content: flex-end;
     background-color: rgba($color: #0000003d, $alpha: 0.6);
     width: 54%;
-    height: 370px;
+    height: 400px;
     padding: 40px 50px 45px 30px;
     margin-left: auto;
     margin-right: 0;
@@ -368,7 +367,7 @@ padding-left: 100px;
 .block_5 {
     background: url(../images/Image_block5.png) center center/cover no-repeat;;
     min-height: 700px;
-    padding-top: 115px;
+    padding-top: 50px;
     h2 {
         font-family: 'Aleo', 'sans-serif';
         font-size: 36px;
@@ -377,7 +376,6 @@ padding-left: 100px;
     }
     .collum-center{
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -391,7 +389,7 @@ padding-left: 100px;
     .collum-right {
         width: 50%; 
         padding-left: 50px;
-        padding-top: 55px;
+        padding-top: 25px;
         color: #fff;
     }
     .title-b5 {
